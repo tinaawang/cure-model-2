@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BayMax</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./default.css">
+    <style id="styleTag"></style>
+</head>
+<body>
+<div id="code-wrapper">
+    <pre id="code"></pre>
+</div>
+<div id="preview-wrapper">
+    <div id="preview">
+        <div id="baymax">
+            <div id="head">
+                <div class="eye left"></div>
+                <div class="eye right"></div>
+                <div id="mouth"></div>
+            </div>
+            <div id="torso">
+                <div id="heart"></div>
+            </div>
+            <div id="belly">
+                <div id="cover"></div>
+            </div>
+            <div class="arm left">
+                <div class="bigfinger left"></div>
+                <div class="smallfinger left"></div>
+            </div>
+            <div class="arm right">
+                <div class="bigfinger right"></div>
+                <div class="smallfinger right"></div>
+            </div>
+            <div class="leg left"></div>
+            <div class="leg right"></div>
+        </div>
+    </div>
+</div>
+<div class="actions">
+    <button data-speed="slow">慢速</button>
+    <button data-speed="normal" class="active">中速</button>
+    <button data-speed="fast">快速</button>
+</div>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
